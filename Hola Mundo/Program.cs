@@ -6,7 +6,8 @@ namespace Hola_Mundo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.ForegroundColor = ConsoleColor.Blue;  
+            Console.WriteLine("Hello World!");            
         }
     }
 }
